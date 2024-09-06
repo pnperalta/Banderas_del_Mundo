@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banderas del Mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="imagenes/videoplayback.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="pregunta">
+        <img src="imagenes/antiguaybarbuda.png" alt="???" id="ayb">
+    </div>
+    <div class="opciones">
+        <div class="opuno">
+            <button class="op1" onclick="correcta('pag10.html')">Antigua y Barbuda</button> 
+        </div>
+        <div class="opdos">
+            <button class="op2" onclick="incorrecta('pag10.html')">Guyana</button> 
+        </div>
+        <div class="optres">
+            <button class="op3" onclick="incorrecta('pag10.html')">Timor Oriental</button> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
